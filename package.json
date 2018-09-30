@@ -1,0 +1,30 @@
+{
+  "name": "first-love-express",
+  "version": "1.0.0",
+  "description": "firttime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syamman/first-love-express.git"
+  },
+  "author": "syamman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syamman/first-love-express/issues"
+  },
+  "homepage": "https://github.com/syamman/first-love-express#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
